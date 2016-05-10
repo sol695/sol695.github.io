@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hiking and Camping Club</title>
+    <link rel="stylesheet" href="main.css">
+    <style type="text/css">
+    /*navigation*/
+    body{
+    margin:0;
+    padding:0;
+    }
+    ul{
+    background:#292d34;
+    margin-top:0px;
+    }
+    .li{
+    padding:10px;
+    margin:33px 4%;
+    display:inline-block;
+    }
+    a{
+    color:white;
+    font-family:arial;
+    font-size:18px;
+    text-decoration:none;
+    cursor:pointer;
+    font-weight: bold;
+    }
+    a:hover{
+    color:#ffb619;
+    font-family:arial;
+    }
+    a:active{
+    color:black;
+    font-family:arial;
+    }
+    /*Header*/
+    .header{
+        display: block;
+
+    }
+    .container{
+        display:block;
+    }
+    .trip{
+    display:none;
+    }
+    .trip:visited{
+    display:block;
+    }
+    .img{
+    margin:10px;
+    padding:5px;
+    height:500px;
+    width: 97%;
+    }
+    /*Content*/
+    .content{
+    background:#F9F9F9;
+    margin: 0 auto;
+    text-align:center;
+    padding-bottom: 100px;
+    }
+    .img*3{
+    }
+    /*images*/
+    .block{
+    width: 400px;
+    margin:5px;
+    padding:5px;
+    display:inline-block;
+    }
+    .blockimg{
+    width: 170px;
+    height: 170px;
+    }
+    div{
+    display:inline-block;
+    }
+    .divnav{
+        display: block;
+    }
+    h1{
+    font-size: 2.2em;
+    font-family: Arial;
+    font-weight: bold;
+    }
+    h3{
+    text-align:center;
+    width:auto;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 7px 300px;
+    line-height: 1.5em;
+    }
+    p{
+    color:#a0abb9;
+    font-size:1.1em;
+    margin: 30px 40px;
+    font-family: Arial;
+    }
+    .block4{
+        width: 212px;
+    margin: 3px;
+    padding: 5px;
+    /* display: inline-block; */
+    display: block;
+    }
+    .block4-2{
+    width: 212px;
+    margin: -234px 612px;
+    padding: 5px;
+    /* display: inline-block; */
+    display: block;
+    }
+    .block4-3{
+        width: 212px;
+    margin: 104px 0px;
+    padding: 5px;
+    /* display: inline-block; */
+    display: block;
+    }
+    .block4-4{
+    width: 212px;
+    margin: -487px 609px;
+    padding: 5px;
+    /*display: inline-block;*/
+    display: block;
+    }
+    .p4{
+    margin: 238px 300px 53px 300px;
+    width:265px;
+    }
+    .p4-2{
+    margin: 222px 300px;
+    width:265px;
+    }
+    .p4-3{
+    margin: 222px 300px;
+    width:265px;
+    }
+    .p4-4{
+    margin: 222px 300px;
+    width:265px;
+    }
+    .blockimg4{
+    width: 210px;
+    height:250px;
+    cursor:pointer;
+    }
+    .blockdown{
+    font-weight: bold;
+    cursor:pointer;
+    background:#48A932;
+    padding: 3px 10px;
+    }
+    .block6{
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+    width: 300px;
+    }
+    .h1-6{
+    font-family: Arial;
+    font-weight: bold;
+    text-align:left;
+    color:orange;
+    }
+    .h2-6{
+    text-align:left;
+    color:#ccc;
+    font-family: Arial;
+    }
+    .p6{
+    font-size: 17px;
+    color:#ADB8C7;
+    text-align:left;
+    line-height:1.5;
+    margin:20px -2px;
+    }
+    .divblock{
+    color:white;
+    width:129px;
+    text-align:center;
+    margin:1px 580px;
+    padding:12px;
+    background:#5CC721;
+    cursor:pointer;
+    }
+    .divblock6{
+    color:white;
+    width:165px;
+    text-align:center;
+    margin:6px -123px;
+    padding:12px;
+    background:#5CC721;
+    cursor:pointer;
+    }
+    .divblock6:hover{
+    background:#40892f;
+    }
+    .content2{
+    background:#292d34;
+    opacity: .9;
+    margin: 0 auto;
+    text-align:center;
+    padding-bottom: 100px;
+    width: auto;
+    height:auto;
+    }
+    .div2{
+    margin:20px 100px;
+    height: 200px;
+    width: 210px;
+    }
+    .div2-1{
+    margin:30px 80px;
+    width:100px;
+    height:80px;
+    display:inline-block;
+    float:left;
+    /*clear:both;*/
+    }
+    .div2-2{
+    margin:-132px -624px;
+    width:100px;
+    height:115px;
+    display:inline-block;
+    float:right;
+    /*clear:both;*/
+    }
+    h1{
+    margin-top:60px;
+    margin:40px 0 ;
+    text-align:center;
+    font-family: Arial;
+    font-weight: bold;
+    color:#30353c;
+    }
+    .p2{
+    display:inline-block;
+    width:369px;
+    font-family:arial;
+    font-size:18px;
+    color:#797C80;
+    }
+    h4{
+    margin: -211px 303px;
+    font-size:1.2em;
+    }
+    .img4{
+    height: 200px;
+    width:270px;
+    }
+    /*Footer*/
+    .footer{
+    width:auto;
+    /*height: 400px;*/
+    background:#292d34;
+    top: 88px;
+    bottom: 0px;
+    position: relative;
+    }
+    .nav{}
+    .nav-footer{
+    display:block;
+    height:349px;
+    margin:19px 0;
+    }
+    .ul-footer{
+    margin:50px 0;
+    width:273px;
+    }
+    .li-footer{
+    padding:55px 23px 17px 69px;
+    margin:-38px 4%;
+    display:block;
+    width:273px;
+    }
+    .a-footer{
+    color:#A0ABB9;
+    font-family:arial;
+    font-size:18px;
+    text-decoration:none;
+    cursor:pointer;
+    font-weight: bold;
+    }
+    .a-footer:hover{
+    color:#555F6C;
+    font-family:arial;
+    }
+    .a-footer:active{
+    color:black;
+    font-family:arial;
+    }
+    .footer2{
+    margin: 0px 152px 0px 152px;
+    padding: 35px 89px 0px 0px;
+    position: relative;
+    bottom: 23px;
+    }
+    .span-footer{
+    margin: 0px 40px;
+    padding:10px;
+    }
+    .img-span{
+    margin:-52px -51px 17px;
+    padding:59px 13px 21px 2px;
+    }
+    .footer3{
+    margin: -273px -27px 0px 744px;
+    padding: 30px 89px 0px 80px;
+    position: relative;
+    bottom: 80px;
+    }
+    .img-soc{
+    cursor:pointer;
+    margin:0 10px;
+    display: inline-block;
+    width:60px;
+    height: 60px;
+    }
+    .p-footer{
+    margin:151px 0 0 0;
+    color:#a0abb9;
+    font-size:19px;
+    font-weight:bold;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="divnav">
+        <nav class="">
+          <ul>
+            <li class="li"><a href="/Home.html">Home</a></li><!--
+            --><li class="li"><a href="/About Club.html">About Club</a></li><!--
+            --><li class="li"><a href="#">Trip Schedule</a>
+             </li><!--
+          --><li class="li"><a href="#">Gallery</a></li><!--
+          --><li class="li"><a href="#">Contacts</a></li><!-- -->
+          <li class="li"><a href="#"><img  class="nav" src="#" alt="S"></a></li><!-- -->
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="content">
+    <h1>News and Events from The Club</h1>
+    <h3>As one of the leading names in the outdoor industry The Club is keen to keep members informed with news, events and latest safety information.</h3>
+    <div class="block6">
+      <h1 class="h1-6">12/10</h1>
+      <h2 class="h2-6">Outdoor activities</h2>
+      <p class="p6">Outdoor activity is leisure pursuits engaged in the outdoors, often in natural or semi-natural settings out of town.</p>
+      <div class="divblock6">
+        <a href="">LEARN MORE</a>
+      </div>
+    </div>
+    <div class="block6">
+      <h1 class="h1-6">14/10</h1>
+      <h2 class="h2-6">Backpacking</h2>
+      <p class="p6">Outdoor activity is leisure pursuits engaged in the outdoors, often in natural or semi-natural settings out of town.</p>
+      <div class="divblock6">
+        <a href="">LEARN MORE</a>
+      </div>
+    </div>
+    <div class="block6">
+      <h1 class="h1-6">03/11</h1>
+      <h2 class="h2-6">Mountaineering</h2>
+      <p class="p6">Outdoor activity is leisure pursuits engaged in the outdoors, often in natural or semi-natural settings out of town.</p>
+      <div class="divblock6">
+        <a href="">LEARN MORE</a>
+      </div>
+    </div>
+  </div>
+  <div class="content2"><br><br>
+    <h1 style="color:white;">Why Join Our Club?</h1>
+    <p>In our busy world it isn’t always easy to find friends or companions to hike with. If you become a member of our club you’ll be joining what people frequently tell us one of the best and most interesting hiking clubs in this part of the country, with an endless array of hikes to choose from on weekends year-round, and hundreds of fellow-members to meet and share memorable times with while hiking in the most scenic natural areas.</p>
+    <div class="divblock">
+      <a href="">LEARN MORE</a>
+    </div>
+  </div>
+
+
+
+    <h1 style="color:#30353C;">Guided Trips and Workshops</h1>
+    <div class="div2">
+
+      <div class="container">
+        <div class="block4">
+          <img src="" alt="img" class="img4">
+
+          <h4>Skills Workshops</h4>
+          <p class="p4">Our Education department offers a wide variety of skills courses from entry level courses like Beginner, Intro to Kayaking, Map and Compass Fundamentals.</p>
+        </div>
+        <div class="block4-2">
+          <img src="" alt="img" class="img4">
+
+
+          <h4>Skills Workshops</h4>
+          <p class="p4-2">Our Education department offers a wide variety of skills courses from entry level courses like Beginner, Intro to Kayaking, Map and Compass Fundamentals.</p>
+        </div>
+        <div class="block4-3">
+          <img src="" alt="img" class="img4">
+
+          <h4>Skills Workshops</h4>
+          <p class="p4-3">Our Education department offers a wide variety of skills courses from entry level courses like Beginner, Intro to Kayaking, Map and Compass Fundamentals.</p>
+        </div>
+        <div class="block4-4">
+          <img src="" alt="img" class="img4">
+
+          <h4>Skills Workshops</h4>
+          <p class="p4-4">Our Education department offers a wide variety of skills courses from entry level courses like Beginner, Intro to Kayaking, Map and Compass Fundamentals.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="nav">
+        <nav class="nav-footer">
+          <ul class="ul-footer">
+            <li class="li-footer"><a href="#" class="a-footer">Home</a></li><!--
+            --><li class="li-footer"><a href="#" class="a-footer">About Club</a></li><!--
+            --><li class="li-footer"><a href="#" class="a-footer">Trip Schedule</a></li><!--
+            --><li class="li-footer"><a href="#" class="a-footer">Gallery</a></li>
+            <li class="li-footer"><a href="#" class="a-footer">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer2">
+        <span class="span-footer"><img src="#" alt="icon" class="img-span"></span>
+        <address>
+          <a href="#" class="a-footer">28 JACKSON BLVD
+            STE 151, CHICAGO
+          IL 60604-2340</a>
+        </address>
+        <span class="span-footer"><img src="#" alt="icon" class="img-span"></span>
+        <address>
+          <a href="#" class="a-footer">mail@demolink.com</a>
+        </address>
+      </div>
+      <div class="footer3">
+        <a href="http://www.youtube.com"><img src="" alt="youtube" class="img-soc"></a>
+      <a href="http://www.twitter.com"><img src="" alt="twitter" class="img-soc"></a>
+      <a href="http://www.coc.com"><img src="" alt="#" class="img-soc"></a>
+      <a href="http://www.facebook.com"><img src="" alt="facebook" class="img-soc"></a>
+      <a href="http://www.instagram.com"><img src="" alt="instagram" class="img-soc"></a>
+        <p class="p-footer">Hiking and Camping Club © 2015. Privacy Policy</p>
+      </div>
+    </div>
+  </body>
+</html>

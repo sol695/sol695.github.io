@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gallery</title>
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <style type="text/css">
+    /*navigation*/
+    body{
+    margin:0;
+    padding:0;
+    }
+    .divimage{
+    height: 500px;
+    }
+    ul{
+    background:#292d34;
+    bottom: 16px;
+    position: relative;
+    }
+    .li{
+    padding:10px;
+    margin:33px 4%;
+    display:inline-block;
+    }
+    a{
+    color:white;
+    font-family:arial;
+    font-size:18px;
+    text-decoration:none;
+    cursor:pointer;
+    font-weight: bold;
+    }
+    a:hover{
+    color:#ffb619;
+    font-family:arial;
+    }
+    a:active{
+    color:black;
+    font-family:arial;
+    }
+    /*Header*/
+    .trip{
+    display:none;
+    }
+    .trip:visited{
+    display:block;
+    }
+    .img{
+    margin:10px;
+    padding:5px;
+    height:500px;
+    /*width: 97%;*/
+    }
+    /*Content*/
+    .content{
+    background:#F9F9F9;
+    margin: 0 auto;
+    text-align:center;
+    padding-bottom: 100px;
+    width:1000px;
+    }
+    .img*3{
+    }
+    /*images*/
+    .block{
+    width: 400px;
+    margin:5px;
+    padding:5px;
+    display:inline-block;
+    }
+    .blockimg{
+    width: 170px;
+    height: 170px;
+    }
+    h1{
+    font-family: Arial;
+    font-weight: bold;
+    }
+    h4{
+    width: 672px;
+    font-size: 1.4em;
+    font-family: arial;
+    margin: -4px -101px;
+    color: #30353c;
+    }
+    .block4{
+    width: 212px;
+    margin:3px;
+    padding:5px;
+    display:inline-block;
+    }
+    .blockimg4{
+    width: 210px;
+    height:250px;
+    cursor:pointer;
+    }
+    .blockdown{
+    font-weight: bold;
+    cursor:pointer;
+    background:#48A932;
+    padding: 3px 10px;
+    }
+    .block6{
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+    width: 300px;
+    }
+    .h1-6{
+    font-family: Arial;
+    font-weight: bold;
+    text-align:left;
+    color:orange;
+    }
+    .h2-6{
+    text-align:left;
+    color:white;
+    font-family: Arial;
+    }
+    .p6{
+    font-size: 17px;
+    color:#ADB8C7;
+    text-align:left;
+    line-height:1.5;
+    }
+    .divblock6{
+    color:white;
+    width:129px;
+    text-align:center;
+    margin:1px;
+    padding:12px;
+    background:#5CC721;
+    cursor:pointer;
+    }
+    .divblock6:hover{
+    background:#40892f;
+    }
+    .content2{
+    background:#292d34;
+    opacity: 5;
+    margin: 0 auto;
+    text-align:center;
+    padding-bottom: 100px;
+    width: auto;
+    height:auto;
+    }
+    .div2{
+    margin:20px 100px;
+    height: 200px;
+    width: 210px;
+    }
+    .div2-1{
+    margin:30px 80px;
+    width:100px;
+    height:80px;
+    display:inline-block;
+    float:left;
+    /*clear:both;*/
+    }
+    .div2-2{
+    margin:-132px -624px;
+    width:100px;
+    height:115px;
+    display:inline-block;
+    float:right;
+    /*clear:both;*/
+    }
+    h1{
+    text-align:center;
+    font-family: Arial;
+    font-weight: bold;
+    color:orange;
+    }
+    .p2{
+    display: inline-block;
+    width: 697px;
+    font-family: arial;
+    font-size: 18px;
+    line-height:1.3;
+    font-weight: 300;
+    color: #797C80;
+    margin: 30px -100px 0;
+    }
+    /*Footer*/
+    .footer{
+    width:auto;
+    height: 400px;
+    background:#292d34;
+    }
+    .nav{}
+    .nav-footer{
+    display:block;
+    height:349px;
+    margin:50px 0;
+    }
+    .ul-footer{
+    margin:50px 0;
+    /*width:273px;*/
+    }
+    .li-footer{
+    padding:55px 23px 17px 69px;
+    margin:-38px 4%;
+    display:block;
+    width:273px;
+    }
+    .a-footer{
+    color:#A0ABB9;
+    font-family:arial;
+    font-size:18px;
+    text-decoration:none;
+    cursor:pointer;
+    font-weight: bold;
+    }
+    .a-footer:hover{
+    color:#555F6C;
+    font-family:arial;
+    }
+    .a-footer:active{
+    color:black;
+    font-family:arial;
+    }
+    .footer2{
+    width:180px;
+    margin: 0 342px 0 376px;
+    padding: 33px 89px 0 67px;
+    position: relative;
+    bottom: 389px;
+    }
+    .span-footer{
+    margin: 0px 40px;
+    padding:10px;
+    }
+    .img-span{
+    margin:-52px -51px 17px;
+    padding:59px 13px 21px 2px;
+    }
+    .footer3{
+    width: 425px;
+    clear: both;
+    margin: 0 0 0 715px;
+    padding: 30px 89px 95px 80px;
+    position: relative;
+    bottom: 625px;
+    }
+    .img-soc{
+    cursor:pointer;
+    margin:0 10px;
+    display: inline-block;
+    width:60px;
+    height: 60px;
+    }
+    .p-footer{
+    margin:151px 0 0 0;
+    color:#a0abb9;
+    font-size:19px;
+    font-weight:bold;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <nav class="">
+          <ul>
+            <li class="li"><a href="/Home.html">Home</a></li><!--
+            --><li class="li"><a href="">About Club</a></li><!--
+            --><li class="li"><a href="#">Trip Schedule</a>
+            </li><!--
+          --><li class="li"><a href="/home/salavat/Рабочий стол/site/Gallery.html">Gallery</a></li><!--
+          --><li class="li"><a href="#">Contacts</a></li><!-- -->
+          <li class="li"><a href="#"><img  class="nav" src="#" alt="S"></a></li><!-- -->
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="content">
+    <h1>Gallery</h1>
+    <div class="block4">
+      <img src="#" alt="slider" class="blockimg4">
+      <div class="blockdown">
+        <h2><a href="#">image</a></h2>
+      </div>
+    </div>
+    <div class="block4">
+      <img src="#" alt="slider2" class="blockimg4">
+      <div class="blockdown">
+        <h2><a href="#">image</a></h2>
+      </div>
+    </div>
+    <div class="block4">
+      <img src="#" alt="slider3" class="blockimg4">
+      <div class="blockdown">
+        <h2><a href="#">image</a></h2>
+      </div>
+    </div>
+    <div class="block4">
+      <img src="#" alt="slider4" class="blockimg4">
+      <div class="blockdown">
+        <h2><a href="#">image</a></h2>
+      </div>
+    </div>
+    <div class="block4">
+      <img src="#" alt="slider" class="blockimg4">
+      <div class="blockdown">
+        <h2><a href="#">image</a></h2>
+      </div>
+    </div>
+    <div class="block4">
+      <img src="#" alt="slider2" class="blockimg4">
+      <div class="blockdown">
+        <h2><a href="#">image</a></h2>
+      </div>
+    </div>
+    <div class="block4">
+      <img src="#" alt="slider3" class="blockimg4">
+      <div class="blockdown">
+        <h2><a href="#">image</a></h2>
+      </div>
+    </div>
+    <div class="block4">
+      <img src="#" alt="slider4" class="blockimg4">
+      <div class="blockdown">
+        <h2><a href="#">image</a></h2>
+      </div>
+    </div>
+  </div>
+  <div class="divimage">
+    <h1 style="color:#30353C;">Join Us On the Beach</h1>
+    <div class="div2">
+      <div class="div2-1">
+        <h4>Enjoy getting closer to the nature? You're in the right place!</h4>
+        <p class="p2">We realize we are models for our clients behavior. We take minimal impact and Leave No Trace ethics seriously. We never use disposable plates or silverware for our trips, as an example. We strive to keep our group sizes relatively small when rock climbing to minimize our impact on other park users. </p>
+        <p class="p2">Cleanups are a fun, free, easy way to give back to your community by keeping pollution from entering the Pacific Ocean. It’s easy to participate – just register for one of our schedule cleanups, or request materials from our office to clean on your own! Volunteers are encouraged to Bring Your Own buckets, gloves, and reusable bags to decrease trash. Beach cleanups demonstrate how individuals of all ages can protect the marine environment by keeping our coastlines free from harmful pollution and debris.</p>
+      </div>
+      <div class="div2-2"
+        >
+        <img src="" alt="img" width="370" height="310" style="margin-top: 160px;">
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="nav">
+      <nav class="nav-footer">
+        <ul class="ul-footer">
+          <li class="li-footer"><a href="#" class="a-footer">Home</a></li><!--
+          --><li class="li-footer"><a href="#" class="a-footer">About Club</a></li><!--
+          --><li class="li-footer"><a href="#" class="a-footer">Trip Schedule</a></li><!--
+          --><li class="li-footer"><a href="#" class="a-footer">Gallery</a></li>
+          <li class="li-footer"><a href="#" class="a-footer">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer2">
+      <span class="span-footer"><img src="#" alt="icon" class="img-span"></span>
+      <address>
+        <a href="#" class="a-footer">28 JACKSON BLVD
+          STE 151, CHICAGO
+        IL 60604-2340</a>
+      </address>
+      <span class="span-footer"><img src="#" alt="icon" class="img-span"></span>
+      <address>
+        <a href="#" class="a-footer">mail@demolink.com</a>
+      </address>
+    </div>
+    <div class="footer3">
+      <a href="http://www.youtube.com"><img src="" alt="youtube" class="img-soc"></a>
+      <a href="http://www.twitter.com"><img src="" alt="twitter" class="img-soc"></a>
+      <a href="http://www.coc.com"><img src="" alt="#" class="img-soc"></a>
+      <a href="http://www.facebook.com"><img src="" alt="facebook" class="img-soc"></a>
+      <a href="http://www.instagram.com"><img src="" alt="instagram" class="img-soc"></a>
+      <p class="p-footer">Hiking and Camping Club © 2015. Privacy Policy</p>
+    </div>
+  </div>
+</body>
+</html>

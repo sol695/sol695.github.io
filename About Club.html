@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Club</title>
+        <link rel="stylesheet" href="main.css">
+        <style type="text/css">
+        /*navigation*/
+        body{
+        margin:0;
+        padding:0;
+        }
+        ul{
+        background:#292d34;
+        text-decoration:none;
+        list-style-type: none;
+        }
+        .li{
+        padding:10px;
+        margin:33px 4%;
+        display:inline-block;
+        }
+        a{
+        color:white;
+        font-family:arial;
+        font-size:18px;
+        text-decoration:none;
+        cursor:pointer;
+        font-weight: bold;
+        }
+        a:hover{
+        color:#ffb619;
+        font-family:arial;
+        }
+        a:active{
+        color:black;
+        font-family:arial;
+        }
+        /*Header*/
+        .trip{
+        display:none;
+        }
+        .trip:visited{
+        display:block;
+        }
+        .img{
+        margin:10px;
+        padding:5px;
+        height:500px;
+        width: 97%;
+        }
+        /*Content*/
+        .all3{
+        display: inline-block;
+        clear:both;
+        }
+        .first-3 {
+        display: inline-block;
+        width:306px;
+        height:500px;
+        margin: 50px;
+        }
+        .first-3-2{
+        margin: -491px 436px;
+        margin-top:-601px;
+        width:400px;
+        }
+        .first-3-3{
+        margin:-447px 61px;
+        margin-top: 105px;
+        margin-left: 913px;
+        }
+        .first-3:last-child{
+        margin:40px;
+        }
+        dl{
+        margin: 50px;
+        }
+        dt{
+        margin:3px -23px;
+        }
+        dd{
+        margin:-25px 42px;
+        }
+        .content{
+        background:#F9F9F9;
+        margin: 0 auto;
+        text-align:center;
+        padding-bottom: 100px;
+        }
+        .img*3{
+        }
+        /*images*/
+        .block{
+        width: 400px;
+        margin:5px;
+        padding:5px;
+        display:inline-block;
+        }
+        .blockimg{
+        width: 170px;
+        height: 170px;
+        }
+        .h2{
+        margin:72px;
+        padding:0;
+        }
+        .block4{
+        width: 212px;
+        margin:3px;
+        padding:5px;
+        display:inline-block;
+        }
+        .blockimg4{
+        width: 210px;
+        height:250px;
+        cursor:pointer;
+        }
+        .blockdown{
+        font-weight: bold;
+        cursor:pointer;
+        background:#48A932;
+        padding: 3px 10px;
+        }
+        .block6{
+        display:inline-block;
+        margin:10px;
+        padding:10px;
+        width: 300px;
+        }
+        .h1-6{
+        font-family: Arial;
+        font-weight: bold;
+        text-align:left;
+        color:#ffb619;
+        }
+        .h2-6{
+        text-align:left;
+        color:white;
+        font-family: Arial;
+        }
+        .p6{
+        font-size: 17px;
+        color:#ADB8C7;
+        text-align:left;
+        line-height:1.5;
+        }
+        .divblock6{
+        color:white;
+        width:129px;
+        text-align:center;
+        margin:1px;
+        padding:12px;
+        background:#5CC721;
+        cursor:pointer;
+        }
+        .divblock6:hover{
+        background:#40892f;
+        }
+        .ul-3{
+        background:#fff;
+        list-style: disc;
+        font-size:1.1em;
+        margin:43px  -21px;
+        }
+        .content2{
+        background:#292d34;
+        opacity: 5;
+        margin: 0 auto;
+        text-align:center;
+        padding-bottom: 100px;
+        width: auto;
+        height:auto;
+        }
+        .div2{
+        margin:20px 100px;
+        height: 200px;
+        width: 210px;
+        }
+        .div2-1{
+        margin:30px 80px;
+        width:100px;
+        height:80px;
+        display:inline-block;
+        float:left;
+        /*clear:both;*/
+        }
+        .div2-2{
+        margin:-132px -624px;
+        width:100px;
+        height:115px;
+        display:inline-block;
+        float:right;
+        /*clear:both;*/
+        }
+        h1{
+        font-family: Arial;
+        text-align:center;
+        font-weight: bold;
+        color:#292d34;
+        margin:50px;
+        }
+        dd, dt, .p2{
+        display:inline-block;
+        width:369px;
+        font-family:arial;
+        font-size:17px;
+        color:#30353C;
+        }
+        .div-3{
+        }
+        .div3{
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        margin: 10px 73px;
+        }
+        .div3-1{
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        margin: 10px 73px;
+        }
+        .div3-2{
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        margin: 10px 73px;
+        }
+        .div3-3{
+        width: 263px;
+        margin: -497px 916px;
+        margin-bottom: 300px;
+        }
+        blockquote{
+        font-size:1.2em;
+        font-style: italic;
+        width:313px;
+        line-height: 1.6;
+        }
+        /*Footer*/
+        .footer{
+        width:auto;
+        height: 400px;
+        background:#292d34;
+        }
+        .nav{}
+        .nav-footer{
+        display:block;
+        height:349px;
+        margin: 100px 0 0px -24px;
+        }
+        .ul-footer{
+        margin:50px 0;
+        width:273px;
+        }
+        .li-footer{
+        padding:55px 23px 17px 69px;
+        margin:-38px 4%;
+        display:block;
+        width:273px;
+        }
+        .a-footer{
+        color:#A0ABB9;
+        font-family:arial;
+        font-size:18px;
+        text-decoration:none;
+        cursor:pointer;
+        font-weight: bold;
+        }
+        .a-footer:hover{
+        color:#555F6C;
+        font-family:arial;
+        }
+        .a-footer:active{
+        color:black;
+        font-family:arial;
+        }
+        .span-footer{
+        margin: 0px 40px;
+        padding:10px;
+        }
+        .img-span{
+        margin:-52px -51px 17px;
+        padding:59px 13px 21px 2px;
+        }
+        .footer2{
+
+        position: relative;
+        top: 82px;
+        margin: -412px 336px 0 345px;
+        padding:33px 89px 110px 67px;
+        }
+        .footer3{
+        position: relative;
+        top: 67px;
+        margin: -346px 308px 0px 715px;
+        padding:30px 89px 0 80px;
+        }
+        .img-soc{
+        cursor:pointer;
+        margin:0 10px;
+        display: inline-block;
+        width:60px;
+        height: 60px;
+        }
+        .p-footer{
+        margin:151px 0 0 0;
+        color:#a0abb9;
+        font-size:19px;
+        font-weight:bold;
+        }
+        li{
+        }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div>
+                <nav class="">
+                    <ul>
+                        <li class="li"><a href="Home.html">Home</a></li><!--
+                        --><li class="li"><a href="About Club.html">About Club</a></li><!--
+                        --><li class="li"><a href="#">Trip Schedule</a>
+                        </li><!--
+                    --><li class="li"><a href="#">Gallery</a></li><!--
+                    --><li class="li"><a href="#">Contacts</a></li><!-- -->
+                    <li class="li"><a href="#"><img  class="nav" src="#" alt="S"></a></li><!-- -->
+                </ul>
+            </nav>
+        </div>
+        <div class="all3">
+            <div class="first-3">
+                <h1>About Club</h1>
+                <img src="#" alt="IMG" width="400px" height="200px">
+                <h2>Information about us</h2>
+                <p class="p2">The Hiking and Camping Club was founded in the late Fall of 2000, when Pickwick began scouring the Web for an outdoor club in the Atlanta area that was for all ages, was close to the city, and held events of all sorts (hiking, canoeing, biking, etc.)
+                When the Web didn't seem to offer any answers, we decided to use our web development knowledge to form an online meeting and information place for a club.</p>
+            </div>
+            <div class="first-3-2">
+                <h1>Our History</h1>
+                <dl>
+                    <dt>2010</dt>
+                    <dd>It was the first time we saw social media being used in a substantial way to challenge us and ask questions.</dd>
+                    <dt>2012</dt>
+                    <dd>We voluntarily submitted our policies and procedures to the Committee for independent review and became the first manufacturer.</dd>
+                    <dt>2013</dt>
+                    <dd>Our club acquired several companies in a strategic move to enhance our position on the global market.</dd>
+                    <dt>2014</dt>
+                    <dd>We acquired a US-based company with an innovative portfolio of products for use under supervision.</dd>
+                    <dt>2015</dt>
+                    <dd>We extended our activities to include the field of specialized items meeting the world’s increasing needs.</dd>
+                </dl>
+            </div>
+            <div class="first-3-3">
+                <h1>Our Mission</h1>
+                <h2>Hiking and Camping Club mission:</h2>
+                <p class="p2">The Club, as a business, is an extension of who we, the staff, are as people. Climbers. Backpackers. Kayakers. Yoga instructors. Adventurers. We share our love of special places reached through rigorous activity.</p>
+                <p class="p2">We realize we are models for our clients behavior. We take minimal impact and Leave No Trace ethics seriously. We never use disposable plates or silverware for our trips, as an example. We strive to keep our group sizes relatively small when rock climbing to minimize our impact on other park users.</p>
+                <ul class="ul-3">
+                    <li>hilking</li>
+                    <li>backpacking</li>
+                    <li>camping</li>
+                    <li>kayaking</li>
+                    <li>cycling</li>
+                    <li>mountaineering</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Meet Our Team</h1>
+        <div class="block4">
+            <img src="#" alt="slider" class="blockimg4">
+            <div class="blockdown">
+                <h2><a href="#">????????????????</a></h2>
+            </div>
+        </div>
+        <div class="block4">
+            <img src="#" alt="slider2" class="blockimg4">
+            <div class="blockdown">
+                <h2><a href="#">????????????????</a></h2>
+            </div>
+        </div>
+        <div class="block4">
+            <img src="#" alt="slider3" class="blockimg4">
+            <div class="blockdown">
+                <h2><a href="#">????????????????</a></h2>
+            </div>
+        </div>
+        <div class="block4">
+            <img src="#" alt="slider4" class="blockimg4">
+            <div class="blockdown">
+                <h2><a href="#">????????????????</a></h2>
+            </div>
+        </div>
+    </div>
+    <div class="div-3">
+        <div class="div3-1">
+            <h1>Our Advantages</h1>
+            <li>
+                <p>Security</p>
+                <p class="p2">Club have made significant investments to build a state-of-the-art security platform.</p>
+            </li>
+            <li>
+                <p>Cost management</p>
+                <p class="p2">With our Company, you can be confident that your needs will be met.</p>
+            </li>
+            <li>
+                <p>Advanced technology</p>
+                <p class="p2">Club is one of the largest providers of a variety of services technology to governmental agencies.</p>
+            </li>
+        </div>
+        <div class="div3-2">
+            <h1>Advice</h1>
+            <h2>Please read attentively</h2>
+            <p class="p2">We gathered all recently asked questions, please read them attentively, especially if you have never hiked in your life:</p>
+            <ul class="ul-3">
+                <li>Water Up!</li>
+                <li>Cheap Bottles</li>
+                <li>Lightweight Backpacking Food</li>
+                <li>Coaxing  Reluctant Camp Fires</li>
+                <li>Pack Food Storage</li>
+                <li>FOOD:Try Meals Before Backpacking</li>
+                <li>10+ Essentials For Hiking </li>
+                <li>Fight Gravity's Drag</li>
+                <li>Fire Starters</li>
+            </ul>
+        </div>
+        <div class="div3-3">
+            <h1>Testimonials</h1>
+        <blockquote><big>"</big>A great time and value. Set in a beautiful area of the park. An experience to remember for a lifetime for not only myself, but my kids and their cousins as well!<big>"</big></blockquote>
+        <span>Mark Johnson</span>
+    </div>
+</div>
+<div class="footer">
+    <div class="nav">
+        <nav class="nav-footer">
+            <ul class="ul-footer">
+                <li class="li-footer"><a href="#" class="a-footer">Home</a></li><!--
+                --><li class="li-footer"><a href="#" class="a-footer">About Club</a></li><!--
+                --><li class="li-footer"><a href="#" class="a-footer">Trip Schedule</a></li><!--
+                --><li class="li-footer"><a href="#" class="a-footer">Gallery</a></li>
+                <li class="li-footer"><a href="#" class="a-footer">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="footer2">
+        <span class="span-footer"><img src="#" alt="icon" class="img-span"></span>
+        <address>
+            <a href="#" class="a-footer">28 JACKSON BLVD
+                STE 151, CHICAGO
+            IL 60604-2340</a>
+        </address>
+        <span class="span-footer"><img src="#" alt="icon" class="img-span"></span>
+        <address>
+            <a href="#" class="a-footer">mail@demolink.com</a>
+        </address>
+    </div>
+    <div class="footer3">
+        <a href="http://www.youtube.com"><img src="" alt="youtube" class="img-soc"></a>
+        <a href="http://www.twitter.com"><img src="" alt="twitter" class="img-soc"></a>
+        <a href="http://www.coc.com"><img src="" alt="#" class="img-soc"></a>
+        <a href="http://www.facebook.com"><img src="" alt="facebook" class="img-soc"></a>
+        <a href="http://www.instagram.com"><img src="" alt="instagram" class="img-soc"></a>
+        <p class="p-footer">Hiking and Camping Club © 2016. Privacy Policy</p>
+    </div>
+</div>
+</body>
+</html>

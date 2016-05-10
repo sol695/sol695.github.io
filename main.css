@@ -1,0 +1,248 @@
+<style type="text/css">
+    /*navigation*/
+    body{
+    margin:0;
+    padding:0;
+    }
+    .header{
+    margin-top: -16px;
+    }
+    ul{
+    background:#292d34;
+    }
+    .li{
+    padding:10px;
+    margin:33px 4%;
+    display:inline-block;
+    }
+    a{
+    color:white;
+    font-family:arial;
+    font-size:18px;
+    text-decoration:none;
+    cursor:pointer;
+    font-weight: bold;
+    }
+    a:hover{
+    color:#ffb619;
+    font-family:arial;
+    }
+    a:active{
+    color:black;
+    font-family:arial;
+    }
+    /*Header*/
+    .trip{
+    display:none;
+    }
+    .trip:visited{
+    display:block;
+    }
+    .img{
+    margin:10px;
+    padding:5px;
+    height:500px;
+    width: 97%;
+    }
+    /*Content*/
+    .content{
+    background:#F9F9F9;
+    margin: 0 auto;
+    text-align:center;
+    padding-bottom: 100px;
+    }
+    .img*3{
+    }
+    /*images*/
+    .block{
+    width: 400px;
+    margin:5px;
+    padding:5px;
+    display:inline-block;
+    }
+    .blockimg{
+    width: 170px;
+    height: 170px;
+    }
+    h1{
+    font-family: Arial;
+    font-weight: bold;
+    }
+    .block4{
+    width: 212px;
+    margin:3px;
+    padding:5px;
+    display:inline-block;
+    }
+    .blockimg4{
+    width: 210px;
+    height:250px;
+    cursor:pointer;
+    }
+    .blockdown{
+    font-weight: bold;
+    cursor:pointer;
+    background:#48A932;
+    padding: 3px 10px;
+    }
+    .block6{
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+    width: 300px;
+    }
+    .h1-6{
+    font-family: Arial;
+    font-weight: bold;
+    text-align:left;
+    color:orange;
+    }
+    .h2-6{
+    text-align:left;
+    color:white;
+    font-family: Arial;
+    }
+    .p6{
+    font-size: 17px;
+    color:#ADB8C7;
+    text-align:left;
+    line-height:1.5;
+    }
+    .divblock6{
+    color:white;
+    width:129px;
+    text-align:center;
+    margin:1px;
+    padding:12px;
+    background:#5CC721;
+    cursor:pointer;
+    }
+    .divblock6:hover{
+    background:#40892f;
+    }
+    .content2{
+    background:#292d34;
+    opacity: .9;
+    margin: 0 auto;
+    text-align:center;
+    padding-bottom: 100px;
+    width: auto;
+    height:auto;
+    }
+    .content2  h1{
+    color:white;
+    position: relative;
+    top:10px;
+    }
+    .div2{
+    margin:20px 100px;
+    height: 200px;
+    width: 210px;
+    }
+    .div2-1{
+    margin: 0px 0px 41px 106px;
+    width:100px;
+    height:80px;
+    display:inline-block;
+    float:left;
+    /*clear:both;*/
+    }
+    .div2-2{
+    /*margin:-132px -624px;*/
+    width:100px;
+    height:115px;
+    display:inline-block;
+    float:right;
+    position: relative;
+    left:650px;
+    bottom:137px;
+    /*clear:both;*/
+    }
+    h1{
+    text-align:center;
+    font-family: Arial;
+    font-weight: bold;
+    color:orange;
+    }
+    .p2{
+    display:inline-block;
+    width:369px;
+    font-family:arial;
+    font-size:18px;
+    color:#797C80;
+    }
+    /*Footer*/
+    .footer{
+    width:auto;
+    height: 400px;
+    background:#292d34;
+    }
+    .nav{}
+    .nav-footer{
+    display:block;
+    height:349px;
+    margin:100px 0;
+    }
+    .ul-footer{
+    margin:50px 0;
+    width:273px;
+    }
+    .li-footer{
+    padding:55px 23px 17px 69px;
+    margin:-38px 4%;
+    display:block;
+    width:273px;
+    }
+    .a-footer{
+    color:#A0ABB9;
+    font-family:arial;
+    font-size:18px;
+    text-decoration:none;
+    cursor:pointer;
+    font-weight: bold;
+    }
+    .a-footer:hover{
+    color:#555F6C;
+    font-family:arial;
+    }
+    .a-footer:active{
+    color:black;
+    font-family:arial;
+    }
+    .footer2{
+    width:180px;
+    clear:both;
+    margin:-412px 336px 101px 336px;
+    padding:33px 89px 110px 67px;
+    }
+    .span-footer{
+    margin: 0px 40px;
+    padding:10px;
+    }
+    .img-span{
+    margin:-52px -51px 17px;
+    padding:59px 13px 21px 2px;
+    }
+    .footer3{
+    width:425px;
+    clear:both;
+    margin:-477px 308px 101px 715px;
+    padding:30px 89px 120px 80px;
+    }
+    .img-soc{
+    cursor:pointer;
+    margin:0 10px;
+    display: inline-block;
+    width:60px;
+    height: 60px;
+    }
+    .p-footer{
+    margin:151px 0 0 0;
+    color:#a0abb9;
+    font-size:19px;
+    font-weight:bold;
+    }
+    .b1{
+        margin-left:100px;
+    }
+    </style>
